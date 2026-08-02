@@ -11,15 +11,12 @@ An AI-powered voice assistant built with Python that records user speech, conver
 -  Open websites
 -  Play music
 -  Tell jokes
--  Display conversation history
--  Simple web interface built with Streamlit
 
 ---
 
 ##  Technologies Used
 
 - Python
-- Streamlit
 - OpenAI Whisper
 - Scikit-learn
 - TF-IDF Vectorizer
@@ -37,7 +34,6 @@ An AI-powered voice assistant built with Python that records user speech, conver
 ```
 AI_Voice_Assistant/
 │
-├── app.py                     # Streamlit application
 ├── Alexa_Voice_Assistant.py   # Main assistant logic
 ├── alexa_data.csv             # Dataset for intent classification
 ├── intent_model.pkl           # Trained ML model
@@ -79,20 +75,6 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-##  Running the Application
-
-Run the Streamlit app:
-
-```bash
-streamlit run app.py
-```
-
-The application will open automatically in your browser.
-
----
 
 ##  Machine Learning Pipeline
 
@@ -157,20 +139,6 @@ Example:
 - Reminder and calendar support
 - Better intent classification using transformer models
 - Support for multiple languages
-
----
-
-##  Application Interface
-
-*(Add screenshots here)*
-
-Example:
-
-```
-screenshots/
-    home.png
-    recording.png
-```
 
 ---
 
