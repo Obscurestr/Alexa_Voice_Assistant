@@ -36,8 +36,6 @@ AI_Voice_Assistant/
 │
 ├── Alexa_Voice_Assistant.py   # Main assistant logic
 ├── alexa_data.csv             # Dataset for intent classification
-├── intent_model.pkl           # Trained ML model
-├── tfidf_vectorizer.pkl       # Saved TF-IDF vectorizer
 ├── input.wav                  # Recorded audio
 ├── requirements.txt
 └── README.md
